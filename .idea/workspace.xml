@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9c08386-0f91-4285-80fd-91dde9ff5b26" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifon2y/SpringBootAws/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifon2y/SpringBootAws/web/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <recent name="C:\Users\User\Desktop\GitIfon2y\SpringBootAws\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HelloControllerTest.hello가_리턴된다">
+  <component name="RunManager" selected="JUnit.HelloControllerTest">
     <configuration name="HelloControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -70,29 +71,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;SpringBootAws.web.HelloControllerTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="HelloControllerTest.hello가_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;SpringBootAws.web.HelloControllerTest.hello가_리턴된다&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -133,12 +111,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelloResponseDtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBootAws.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringBootAws.web.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpringBootAws.web.dto" />
+      <option name="MAIN_CLASS_NAME" value="SpringBootAws.web.dto.HelloResponseDtoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloResponseDtoTest.롬복_기능_테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBootAws.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringBootAws.web.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpringBootAws.web.dto" />
+      <option name="MAIN_CLASS_NAME" value="SpringBootAws.web.dto.HelloResponseDtoTest" />
+      <option name="METHOD_NAME" value="롬복_기능_테스트" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HelloControllerTest.hello가_리턴된다" />
         <item itemvalue="JUnit.HelloControllerTest" />
+        <item itemvalue="JUnit.HelloResponseDtoTest" />
+        <item itemvalue="JUnit.HelloResponseDtoTest.롬복_기능_테스트" />
+        <item itemvalue="JUnit.HelloControllerTest.hello가_리턴된다" />
         <item itemvalue="Gradle.HelloControllerTest" />
-        <item itemvalue="Gradle.HelloControllerTest.hello가_리턴된다" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +173,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SpringBootAws$HelloControllerTest_hello_.ic" NAME="HelloControllerTest.hello가_리턴된다 Coverage Results" MODIFIED="1705932501048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
