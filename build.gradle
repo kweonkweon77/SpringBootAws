@@ -35,6 +35,9 @@ dependencies {
     testImplementation("org.junit.vintage:junit-vintage-engine") {
         exclude group: "org.hamcrest", module: "hamcrest-core"
     }
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    implementation('com.h2database:h2:')
+    //인메모리 RDB 로컬환경에서 구동할 예정
 }
 
 test {
