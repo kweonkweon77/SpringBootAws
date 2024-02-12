@@ -1,4 +1,4 @@
-package SpringBootAws.web.dto;
+package com.ifon2y.SpringBootAws.web.dto;
 
 import com.ifon2y.SpringBootAws.web.dto.HelloResponseDto;
 import org.assertj.core.api.Assertions;

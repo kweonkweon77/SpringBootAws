@@ -1,4 +1,4 @@
-package SpringBootAws.web;
+package com.ifon2y.SpringBootAws.web;
 
 import com.ifon2y.SpringBootAws.web.HelloController;
 import org.junit.Test;

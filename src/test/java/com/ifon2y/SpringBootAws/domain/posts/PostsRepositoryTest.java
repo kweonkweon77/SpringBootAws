@@ -1,4 +1,4 @@
-package SpringBootAws.domain.posts;
+package com.ifon2y.SpringBootAws.domain.posts;
 
 
 import com.ifon2y.SpringBootAws.domain.posts.Posts;
@@ -7,6 +7,8 @@ import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import static org.assertj.core.api.Assertions.*;
@@ -14,8 +16,8 @@ import static org.assertj.core.api.Assertions.*;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest
 
+@SpringBootTest
 public class PostsRepositoryTest {
 
     @Autowired
