@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c9c08386-0f91-4285-80fd-91dde9ff5b26" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpringBootAws/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ifon2y/SpringBootAws/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpringBootAws/domain/posts/PostsRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ifon2y/SpringBootAws/domain/posts/PostsRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpringBootAws/web/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ifon2y/SpringBootAws/web/HelloControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpringBootAws/web/dto/HelloResponseDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ifon2y/SpringBootAws/web/dto/HelloResponseDtoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +55,7 @@
       <recent name="C:\Users\User\Desktop\GitIfon2y\SpringBootAws\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostsRepositoryTest (1)">
+  <component name="RunManager" selected="JUnit.PostsRepositoryTest.게시글저장_불러오기 (1)">
     <configuration name="HelloControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringBootAws.test" />
       <extension name="coverage">
@@ -70,21 +66,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="SpringBootAws.web" />
       <option name="MAIN_CLASS_NAME" value="SpringBootAws.web.HelloControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloResponseDtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBootAws.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SpringBootAws.web.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SpringBootAws.web.dto" />
-      <option name="MAIN_CLASS_NAME" value="SpringBootAws.web.dto.HelloResponseDtoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,6 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostsRepositoryTest.게시글저장_불러오기 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBootAws.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ifon2y.SpringBootAws.domain.posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ifon2y.SpringBootAws.domain.posts" />
+      <option name="MAIN_CLASS_NAME" value="com.ifon2y.SpringBootAws.domain.posts.PostsRepositoryTest" />
+      <option name="METHOD_NAME" value="게시글저장_불러오기" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PostsRepositoryTest.게시글저장_불러오기" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringBootAws.test" />
       <extension name="coverage">
@@ -138,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostsRepositoryTest.게시글저장_불러오기 (1)" />
         <item itemvalue="JUnit.PostsRepositoryTest (1)" />
         <item itemvalue="JUnit.PostsRepositoryTest.게시글저장_불러오기" />
         <item itemvalue="JUnit.PostsRepositoryTest" />
         <item itemvalue="JUnit.HelloControllerTest" />
-        <item itemvalue="JUnit.HelloResponseDtoTest" />
       </list>
     </recent_temporary>
   </component>
